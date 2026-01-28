@@ -48,7 +48,7 @@ Tensions can occur between community members even when they are trying their bes
 
 When an incident does occur, it is important to report it promptly.
 
-To report a possible violation, please email [jcook3701's email](mailto:jcook3701@gmail.com?subject=Report: Community Code of Conduct).
+To report a possible violation, please email [jcook3701's email](mailto:jcook3701+github-conduct-report@gmail.com?subject=Report:%20Community%20Code%20of%20Conduct).
 
 All reports will be handled with strict confidentiality. Your email should include:
 
