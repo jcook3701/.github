@@ -39,7 +39,7 @@ body:
     id: os
     attributes:
       label: Operating System
-      description: What OS are you running cookiecutter on?
+      description: What OS are you running on?
       options:
         - Windows
         - macOS
@@ -47,10 +47,10 @@ body:
     validations:
       required: true
   - type: input
-    id: cc-version
+    id: version
     attributes:
-      label: Cookiecutter Version
-      description: Run 'cookiecutter --version' and paste the output.
+      label: Project Version
+      description: Run project with '--version' flag and paste the output if available.
       placeholder: e.g. 2.6.0
     validations:
       required: false

@@ -9,6 +9,11 @@ These files are used by all public repositories if there are no own versions of 
 Changes to the community health files and this repository are managed in a central internal location and mirrored to this repository.
 Manual changes to this repository will be overwritten and we can not accept any pull requests.
 
+1. **[Code of Conduct](CODE_OF_CONDUCT.md)** Defines community standards, fostering a welcoming, inclusive, and harassment-free environment for contributors.
+2. **[Code owners](CODEOWNERS)** Specifies individuals or teams responsible for specific code, automating review requests and streamlining approvals.
+3. **[Security](SECURITY.md)** Outlines the procedures for reporting vulnerabilities and the project’s security policy.
+4. **[Funding](FUNDING.yml)** Configures custom funding links (e.g., GitHub Sponsors, Patreon) to support project maintenance.
+
 ## License
 
 Copyright (c) 2025-2026, Jared Cook  
