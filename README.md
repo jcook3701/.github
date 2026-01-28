@@ -1,5 +1,7 @@
 # Default Community Health Files
 
+[![License](https://img.shields.io/github/license/jcook3701/.github)](LICENSE)
+
 This repository contains the [default community files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for [jcook3701's](https://github.com/jcook3701) projects on GitHub.
 
 These files are used by all public repositories if there are no own versions of these health files configured.
