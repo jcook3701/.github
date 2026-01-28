@@ -1,11 +1,17 @@
 # Security Vulnerabilities
 
 ## Reporting
+
 We are grateful for security researchers and users reporting a vulnerability to us, first. To ensure that your request is handled in a timely manner and non-disclosure of vulnerabilities can be assured, please follow the below guideline.
 
-__Please do not report security vulnerabilities directly on GitHub. GitHub Issues can be publicly seen and therefore would result in a direct disclosure.__
+**Please do not report security vulnerabilities directly on GitHub. GitHub Issues can be publicly seen and therefore would result in a direct disclosure.**
 
-For reporting a vulnerability, please send an email directly to <jcook3701+project-name-security@gmail.com>. Please address questions about data privacy, security concepts, and other media requests for Security Researchers on our team.
+For reporting a vulnerability, please send an email directly to [jcook3701's email](mailto:jcook3701+security-vulnerability@gmail.com?subject=Report:%20Security%20Vulnerability).
+
+All reports will be handled with strict confidentiality. Your email should include:
+
+* Please address questions about **data privacy**, **security concepts**, and other **media requests** for Security Researchers on our team.
 
 ## Disclosure Handling
+
 We are committed to timely review and respond to your request. The resolution of code defects will be handled by a dedicated group of security experts and prepared in a private GitHub repository. The project will inform the public about resolved security vulnerabilities via GitHub Security Advisories.
