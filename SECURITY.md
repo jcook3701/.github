@@ -8,9 +8,16 @@ We are grateful for security researchers and users reporting a vulnerability to 
 
 For reporting a vulnerability, please send an email directly to [jcook3701's email](mailto:jcook3701+security-vulnerability@gmail.com?subject=Report:%20Security%20Vulnerability).
 
-All reports will be handled with strict confidentiality. Your email should include:
+To help us verify and resolve issues efficiently, please ensure your security vulnerability report includes the following:
 
-* Please address questions about **data privacy**, **security concepts**, and other **media requests** for Security Researchers on our team.
+* **Vulnerability Type** and the specific component or URL affected.
+* **Detailed Steps** to Reproduce the issue, including any specific configurations needed.
+* **Proof of Concept (PoC)** such as HTTP requests, scripts, or screen recordings.
+* **Impact Assessment** describing what a successful exploit would allow an attacker to do.
+* **Reproduction Environment** details, including the browser, OS, or software version used.
+* **Suggested Mitigation** or fix, if you have identified one.
+
+All reports are handled with strict confidentiality. We ask that you follow responsible disclosure by giving us reasonable time to investigate and fix the issue before sharing any details publicly.
 
 ## Disclosure Handling
 
