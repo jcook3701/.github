@@ -48,7 +48,7 @@ Tensions can occur between community members even when they are trying their bes
 
 When an incident does occur, it is important to report it promptly.
 
-To report a possible violation, please email [jcook3701's email](jcook3701+project-name@gmail.com).
+To report a possible violation, please email [jcook3701's email](mailto:jcook3701+project-name@gmail.com).
 
 All reports will be handled with strict confidentiality. Your email should include:
 
