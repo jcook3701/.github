@@ -1,0 +1,30 @@
+---
+name: Validate community files
+
+on:
+  pull_request:
+  push:
+    branches:
+      - develop
+      - "feat-*"
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: community-files-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Run containerized verification
+        run: make verify
