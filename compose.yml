@@ -1,0 +1,27 @@
+name: jcook3701-community-files
+
+services:
+  verify:
+    image: ${COMMUNITY_VERIFY_IMAGE:-jcook3701-community-verify:local}
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    init: true
+    user: "65534:65534"
+    working_dir: /workspace
+    command: ["bash", "/workspace/scripts/verify.sh"]
+    network_mode: none
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:exec,mode=1777
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+        read_only: true
+    environment:
+      HOME: /tmp
